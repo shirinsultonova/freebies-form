@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freebies</title>
+
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <main class="site-main">
+        <div class="container">
+            <div class="main-box">  
+                <div class="main-infobox">
+                    <h2 class="info-text">
+                        Let’s get you set up
+                    </h2>
+                    <p class="description-text">
+                        Itshould only take a couple of minutes
+                        to pair with your watch
+                    </p>
+                    <a class="ifobox-link" href="#"></a>
+                </div>
+                <div class="main-registrationbox">
+                    <form class="registration-box" action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                        <label class="name-textzone">
+                            <span class="text-name">Name</span>
+                            <input class="input-zone name-inputzone" type="text" name="user_name" minlength="2" maxlength="1000000" aria-label="Enter your name" required placeholder="Name">
+                        </label>
+
+                        <div class="gender-box">
+                            <p class="text-gender">
+                                Gender
+                            </p>
+
+                            <label class="text-malezone">
+                                <input class="input-zonegender-male visually-hidden" type="radio" name="user_gender" aria-label="Choose male gender" required value="Male">
+
+                                <span class="gender-male-inputzone"></span>
+                                <span class="text-male">Male</span>
+                            </label>
+
+                            <label class="text-femalezone">
+                                <input class="input-zonegender-female visually-hidden" type="radio" name="user_gender" aria-label="Choose female gender" required value="Female">
+
+                                <span class="gender-female-inputzone"></span>
+                                <span class="text-female">Female</span>
+                            </label>
+                        </div>
+
+                        <label class="text-date_of_birthzome">
+                            <span class="text-date_of_birth">Date of Birth</span>
+                            <input class="input-zone birthday-inputzone" type="date" name="user_birthdate" aria-label="Enter your birthdate" placeholder="01/02/1983" required>
+                        </label>
+
+                        <label class="text-emailzome">
+                            <span class="text-email">Email</span>
+                            <input class="input-zone email-inputzone" type="email" name="user_email" aria-label="Enter your email" required placeholder="kendall@emailcom">
+                        </label>
+
+                        <label class="text-mobilezone">
+                            <span class="text-mobile">Mobile</span>
+                            <input class="input-zone phone-inputzone" type="tel" name="user_phone" aria-label="Enter your phone nomber" maxlength="19" required placeholder="+91 98765 43210">
+                        </label>
+
+                        <label class="name-customerzone">
+                            <span class="text-customer">Customer ID</span>
+                            <input class="input-zone id-inputzone" type="text" name="user_ID" minlength="2" maxlength="1000000" aria-label="Enter your ID" required placeholder="576802-ERD0348 45">
+                        </label>
+
+                        <div class="membership-box">
+                            <p class="text-membership">
+                                Membership
+                            </p>
+
+                            <label class="text-classiczone">
+                                <input class="visually-hidden membership-classic-inputzone" type="radio" name="user_membership" aria-label="Choose classic membership" required value="Classic">
+                                <span class="membership-classic-zone"></span>
+                                <span class="text-classic">Classic</span>
+                            </label>
+
+                            <label class="text-silverzone">
+                                <input class="visually-hidden membership-silver-inputzone" type="radio" name="user_membership" aria-label="Choose silver membership" required value="Silver">
+                                <span class="membership-silver-zone"></span>
+                                <span class="text-silver">Silver</span>
+                            </label>
+                            
+                            <label class="text-goldzone">
+                                <input class="visually-hidden membership-gold-inputzone" type="radio" name="user_membership" aria-label="Choose gold membership" required value="Gold">
+                                <span class="membership-zone membership-classic-inputzone"></span>
+                                <span class="text-gold">Gold</span>
+                            </label>
+                        </div>
+
+                        <div class="buttnon-box">
+                            <button class="reset-button" type="reset">CANCEL</button>
+                            <button class="submit-button" type="submit">SAVE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
